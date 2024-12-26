@@ -30,7 +30,7 @@ void myTime::printTime(){
 main(){
 	myTime open;
 	myTime close(21);
-	myTime close(21,25);
+	myTime close1(21,25);
 	cout<<"開張時間:";
 	open.printTime();
 	cout<<"結束時間(1):";
